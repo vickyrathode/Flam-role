@@ -25,7 +25,7 @@ const styles = {
     fontWeight: 900,
     fontSize: '1.2em',
     letterSpacing: 2,
-    color: '#fff',
+    color: '#fbf5f5',
     textShadow: '0 2px 8px #1565c0',
   },
 };
