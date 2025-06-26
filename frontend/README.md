@@ -48,3 +48,25 @@ This Event Calendar app is a modern, interactive calendar for managing events an
    ```sh
    npm run preview
    ```
+
+## Deploying to Vercel
+
+To deploy this Vite React app to Vercel:
+
+1. **Push your code to GitHub (or GitLab/Bitbucket).**
+2. **Go to [Vercel](https://vercel.com/) and create a new project.**
+3. **Import your repository.**
+4. **Set the following settings in the Vercel dashboard:**
+   - **Framework Preset:** Vite
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+5. **Deploy!**
+
+If you see a 404 error:
+- Make sure your `vite.config.js` exists and is correct (see this repo for an example).
+- Ensure your build output is in the `dist` folder after running `npm run build` locally.
+- The `dist` folder must contain an `index.html` file.
+
+For more help, see the [Vercel docs for Vite](https://vercel.com/guides/deploying-vite-with-vercel).
+
+---
