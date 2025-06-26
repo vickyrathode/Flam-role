@@ -158,6 +158,8 @@ const Dashboard = () => {
                   <Button onClick={() => addBookmark(user.id)}>Bookmark</Button>
                 )}
                 <Button style={{ background: '#43a047' }} onClick={() => alert('Promoted!')}>Promote</Button>
+                <Button style={{ background: '#ffb300' }} onClick={() => alert('Assigned to Project!')}>Assign to Project</Button>
+                
               </div>
             </Card>
           ))
